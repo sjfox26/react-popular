@@ -20,6 +20,13 @@ class ByLanguage extends Component {
             })
     }
 
+    updateLanguage = (language) => {
+        this.setState({
+            language: language
+        });
+    }
+
+
     render () {
 
 
@@ -27,11 +34,15 @@ class ByLanguage extends Component {
             <Aux>
                 <div className={classes.ByLanguage}>
                     <div>
-
+                        Data for {this.state.language}
                     </div>
-                    <div>
-                        Data
-                    </div>
+                    <ul>
+                        {this.state.languages.map((lang) => (
+                            <li key={lang} onClick={() => this.updateLanguage(lang)}>
+                                {lang}
+                            </li>
+                        ))}
+                    </ul>
                 </div>
             </Aux>
 
