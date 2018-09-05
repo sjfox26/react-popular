@@ -20,6 +20,16 @@ class ByLanguage extends Component {
             })
     }
 
+    componentDidUpdate (prevProps, prevState) {
+        if (prevState.language !== this.state.language) {
+            const url = `https://api.github.com/search/repositories?q=stars:>1+language:${this.state.language}&sort=stars&order=desc&type=Repositories`;
+            axios.get(url)
+                .then(response => {
+                    console.log(response);
+                })
+        }
+    }
+
     updateLanguage = (language) => {
         this.setState({
             language: language
