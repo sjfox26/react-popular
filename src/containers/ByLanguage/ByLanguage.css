@@ -2,3 +2,7 @@
     margin-top: 120px;
     text-align: center;
 }
+
+.LanguageList {
+    list-style: none;
+}
