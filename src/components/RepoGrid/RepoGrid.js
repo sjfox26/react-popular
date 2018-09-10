@@ -1,7 +1,8 @@
 import React from 'react';
+import classes from './RepoGrid.css';
 
 const RepoGrid = (props) => (
-    <ul style={{display: 'flex', flexWrap: 'wrap', listStyle: 'none'}}>
+    <ul className={classes.RepoGrid}>
         {props.repos.map(({ name, owner, stargazers_count, html_url }) => (
             <li key={name} style={{margin: 30}}>
                 <ul>
