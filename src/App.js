@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import Layout from "./hoc/Layout/Layout";
-import Overall from "./containers/Overall/Overall";
+import ByName from "./containers/ByName/ByName";
 import ByLanguage from "./containers/ByLanguage/ByLanguage";
 
 class App extends Component {
@@ -11,7 +11,7 @@ class App extends Component {
             <div>
                 <Layout>
                     <Switch>
-                        <Route path="/overall" component={Overall} />
+                        <Route path="/by_name" component={ByName} />
                         <Route path="/" component={ByLanguage} />
                     </Switch>
                 </Layout>

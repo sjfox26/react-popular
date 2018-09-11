@@ -4,8 +4,8 @@ import NavigationItem from './NavigationItem/NavigationItem';
 
 const navigationItems = (props) => (
     <ul className={classes.NavigationItems}>
-        <NavigationItem link="/" exact>Most Popular</NavigationItem>
-        {/*<NavigationItem link="/forecast">Forecast</NavigationItem>*/}
+        <NavigationItem link="/" exact>By Language</NavigationItem>
+        <NavigationItem link="/by_name">By First Name!</NavigationItem>
     </ul>
 );
 

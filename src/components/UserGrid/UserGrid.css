@@ -1,0 +1,14 @@
+.UserGrid {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.User {
+    font-weight: inherit;
+    width: 150px;
+    padding: 30px;
+    margin: 50px;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+}
