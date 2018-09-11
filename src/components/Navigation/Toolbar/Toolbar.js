@@ -8,11 +8,10 @@ const toolbar = (props) => (
     <header className={classes.Toolbar}>
         {/*<DrawerToggle clicked={props.drawerToggleClicked}/>*/}
         <div>
-            Most Popular
+            Git Comparison App!
         </div>
         <nav className={classes.DesktopOnly}>
-            {/*<NavigationItems />*/}
-            Navigation Items
+            <NavigationItems />
         </nav>
     </header>
 );

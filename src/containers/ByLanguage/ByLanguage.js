@@ -58,7 +58,7 @@ class ByLanguage extends Component {
                 <div className={classes.ByLanguage}>
                     <ul className={classes.LanguageList}>
                         {this.state.languages.map((lang) => (
-                            <li key={lang} onClick={() => this.updateLanguage(lang)} style= {(this.state.language === lang ? {fontWeight: 'bold'} : {fontWeight: 'normal'} )}>
+                            <li key={lang} onClick={() => this.updateLanguage(lang)} style= {(this.state.language === lang ? {fontWeight: 'bold', cursor: 'pointer'} : {fontWeight: 'normal', cursor: 'pointer'} )}>
                                 {lang}
                             </li>
                         ))}

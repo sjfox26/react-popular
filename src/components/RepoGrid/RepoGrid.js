@@ -4,7 +4,7 @@ import classes from './RepoGrid.css';
 const RepoGrid = (props) => (
     <ul className={classes.RepoGrid}>
         {props.repos.map(({ name, owner, stargazers_count, html_url }) => (
-            <li key={name} style={{margin: 30}}>
+            <li key={name} className={classes.Repo}>
                 <ul>
                     <li><a href={html_url}>{name}</a></li>
                     <li>@{owner.login}</li>
