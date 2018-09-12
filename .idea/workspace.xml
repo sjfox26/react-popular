@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="379ee600-0224-4211-88b1-a73c588365d2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -219,7 +220,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="81" />
+    <option name="y" value="88" />
     <option name="width" value="1440" />
     <option name="height" value="812" />
   </component>
@@ -338,15 +339,15 @@
       <updated>1535553774063</updated>
       <workItem from="1535553775547" duration="631000" />
       <workItem from="1535554560274" duration="5423000" />
-      <workItem from="1536082477638" duration="18954000" />
+      <workItem from="1536082477638" duration="19059000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25008000" />
+    <option name="totallyTimeSpent" value="25113000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="81" width="1440" height="812" extended-state="0" />
+    <frame x="0" y="88" width="1440" height="812" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25608012" />
       <window_info id="Structure" order="1" weight="0.25" />
